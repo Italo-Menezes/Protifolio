@@ -1,0 +1,20 @@
+@import "../../../styles/variables.scss";
+@import "../../../styles/mixins.scss";
+
+
+
+.box{
+  background-color: $lightPrimary;
+  padding: 3rem;
+  max-width: 7rem;
+  @include flex-center;
+
+
+  span {
+    text-transform: uppercase;
+    color:#254b45;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+
+}
